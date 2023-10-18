@@ -1,0 +1,139 @@
+*{    
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#logo{
+    margin-top: 52px;
+    margin-left: 56px;
+    margin-right: 62px;
+}
+
+#titulo-menusuperior{
+    margin-top: 80px;
+    margin-left: 172px;
+}
+
+#texto-menusuperior{
+    margin-top: 35px;
+    margin-left: 172px;
+}
+
+#menusuperior{
+    background-image: url(/imagens/fundo-menusuperior.svg);
+    padding-bottom: 100px;
+    color: white;
+}
+#menuinformacional{
+    background-color: #EAECE5;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 10px;
+
+}
+
+.textoinformativo{
+display: flex;
+align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 0px 50px 100px;
+}
+
+#escritavideo{
+    margin: 50px 100px 50px 25px;
+}
+
+#titulovideo{
+    color: #247BA0;
+}
+
+#cards{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulocards{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+
+}   
+
+#bruna{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+    
+}
+
+.seta{
+    margin-top: 25%;
+    cursor: pointer;
+}
+
+    .seta:hover{
+    transform:translateY(-15px);
+    transition-duration: 1s;
+
+    }
+
+    #formulario{
+        text-align: center;
+        
+    }
+
+    #titulo-formulario{
+        font-size: 25px;
+        color:#383838;
+        margin: 25px;
+    }
+
+    input{
+        Width: 300px;
+        Height: 40px;
+        background-color: #EAECE5;
+        margin: 8px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    button{
+        background-color: #247BA0;
+        border: 0px;
+        border-radius: 5px;
+        margin: 5px;
+        Width: 280px;
+        Height: 40px;
+        margin-bottom: 50px;
+        color: white;
+    }
+
+    button:hover{
+        cursor: pointer;
+        transform:translateY(-7px);
+        transition-duration: 0.4s;
+        box-shadow: 0px 8px 8px 0px #14235a77;
+        background-color: #247BA0;
+    }
